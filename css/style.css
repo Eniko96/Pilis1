@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+body{
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    background: white;
+}
+
+header{
+    background: url(../img/logo1.jpg);
+    height: 240px;
+    width: 900px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+h1{
+    padding-top: 60px;
+    padding-left: 420px;
+}
+
+h2{
+    padding: 20px 0;
+}
+
+.content>img{
+    float: left;
+    padding-right: 20px;
+}
+
+.sidebar{
+    width: 24.999%;
+    height: 1000px;
+    display: block;
+    float: left;
+    padding: 20px 10px 0 0;
+}
+
+.menu{
+    background: #96A96F;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.menu>img{
+    float: right;
+}
+
+.letoltesek{
+    background: #96A96F;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.letoltesek>img{
+    float: right;
+}
+
+.ajanlott{
+    background: #96A96F;
+    padding-bottom: 40px;
+}
+
+.ajanlott>img{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    line-height: 2;
+    color: #6C7341;
+    padding-left: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+h3{
+    background: #203926;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+content{
+    width: 74.999%;
+    height: 1000px;
+    display: block;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+p{
+    padding-right: 70px;
+}
+
+.elso{
+    padding-bottom: 50px;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+footer{
+    color: white;
+    background: #203926;
+    padding-left: 360px;
+    margin-top: 50px;
+}
